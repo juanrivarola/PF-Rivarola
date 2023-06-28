@@ -211,6 +211,13 @@ main section img{
         height: 60px;
     }
 
+@media (width < 576px){
+
+    nav ul li a{
+        font-size: 1em;
+    }
+}
+
 
 /* footer */
 
