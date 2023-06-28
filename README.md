@@ -1,2 +1,6 @@
 # PreEntrega2-Rivarola
-espero estar haciendo las cosas bien dea
+
+
+Link deployment: https://juanrivarola.github.io/PreEntrega2-Rivarola/
+
+Link repo: https://github.com/juanrivarola/PreEntrega2-Rivarola
