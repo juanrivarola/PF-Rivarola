@@ -48,37 +48,40 @@
         <!--ends header-->
         
         <main>
-            <h1>CONTACTENOS</h1>
-            <form action="envio.php">
-                <div>
-                    <label for="nombre"></label>
-                    <input type="text" placeholder="Nombre" id="nombre">
-                </div>
-                <div>
-                    <label for="tel"></label>
-                    <input type="tel" placeholder="Telefono" id="tel">
-                </div>
-                <div>
-                    <label for="email"></label>
-                    <input type="email" placeholder="Email" id="email">
-                </div>
-                <div>
-                    <label for="mensaje"></label>
-                    <br>
-                    <textarea name="" id="" placeholder="Deja tu mensaje" cols="50" rows="20"></textarea>
-                </div>
-                <div>
-                    <input type="submit" value="Enviar" class="button">
-                    <input type="reset" value="Cancelar" class="button">
-                </div>
+            <h1 class="text-light bg-opaco">CONTACTENOS</h1>
+            <div class="contacto">
+                <form action="envio.php" class="contacto_form">
+                    
+                        <div class="contacto_labels">
+                            <label for="nombre" class="form-label"></label>
+                            <input type="text" placeholder="Nombre" id="nombre" class="mt-2 form-control bg-black">
+                        
+                            <label for="tel" class="form-label"></label>
+                            <input type="tel" placeholder="Telefono" id="tel" class="form-control bg-black">
+                    
+                            <label for="email" class="form-label"></label>
+                            <input type="email" placeholder="Email" id="email" class="form-control  bg-black">
+                        </div>
+                      
+                        <img src="../img/Shai logo.png" alt="logo shai" class="contacto_logo">
+                       
+                  
+                    <div class="contacto_textarea">
+                        <label for="mensaje" class="form-label"></label>
+                        <br>
+                        <textarea name="" id="" placeholder="Deja tu mensaje" cols="50" rows="10" class="form-control bg-black"></textarea>
+                    </div>
+                    <div class="contacto_boton">
+                        <input type="submit" value="Enviar" class="button w-50">
+                        <input type="reset" value="Cancelar" class="button w-25">
+                    </div>
 
-                <img src="../img/Shai logo.png" alt="logo shai">
+                </form>
 
-            </form>
-
-            <aside>
-                <img src="../img/nosotros2.jpg" alt="Estamos a su disposicion" class="bigimg_size">
-            </aside>
+                <aside>
+                    <img src="../img/nosotros2.jpg" alt="Estamos a su disposicion" class="w-50">
+                </aside>
+            </div>
         </main>
         <!--ends main-->
 
