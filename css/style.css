@@ -27,7 +27,7 @@ h2{
 
 h3{
     color: rgb(226, 226, 226);
-    font-size: 1.5em;
+    font-size: 2.5em;
     text-align: center;
     margin-top: 5px;
 }
@@ -171,6 +171,10 @@ main section img{
     width: 75%;
 }
 
+main section ul{
+    padding: 5px;
+}
+
 /* ------ clases ------ */
 
 /* otros */
@@ -242,6 +246,7 @@ main section img{
    grid-template-columns: 15% repeat(3,1fr);
    grid-template-rows: repeat(2, auto);
    gap: 5px;
+   margin-right: 5px;
    grid-template-areas: 
    "filtros prod1 prod2 prod3"
    ". prod4 prod5 prod6";
@@ -250,6 +255,12 @@ main section img{
         border: solid 3px white;
         border-radius: 10px;
         margin-top: 10px;
+    }
+
+    .catalogo h3{
+
+        margin-top: 5px;
+
     }
     .filtros{
         margin: 5px;
@@ -262,11 +273,10 @@ main section img{
         flex-direction: column;
         align-items: flex-start;
     }
-
+    
     .filtros a{
         font-size: 1.2em;
-        text-decoration: none;
-        
+        text-decoration: none;        
     }
 
     .prod1{
@@ -357,3 +367,35 @@ main section img{
     
     
 }
+
+@media (width < 535px){
+
+    .catalogo h3{
+
+        font-size: 1em;
+    }
+
+    .catalogo p{
+
+        font-size: 0.75em;
+    }
+}
+
+ /* ofertas */
+
+ .ofertas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+    .ofertas h3{
+        margin-top: -15px;
+        margin-bottom: 5px;
+    }
+
+    .ofertas img{
+        margin: 20px;
+    }
