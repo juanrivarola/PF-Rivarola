@@ -393,9 +393,18 @@ main section ul{
 
     .ofertas h3{
         margin-top: -15px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
 
     .ofertas img{
-        margin: 20px;
+        margin: 10px 20px;
     }
+
+
+/* nosotros */
+
+.nosotros{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;  
+}
