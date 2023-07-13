@@ -1,0 +1,58 @@
+.contacto{
+
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+
+    form{
+        background-color: rgb(49, 49, 49);
+        width: 50%;
+        height: auto;
+        border: solid 3px rgb(77, 76, 76);
+        padding: 25px;
+        border-radius: 3px;
+        margin-bottom: 30px;
+    }
+}
+
+.contacto_form{
+
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: repeat(3, auto);
+    gap: 5px;
+
+    grid-template-areas: 
+    "labels logo"
+    "labels logo"
+    "labels logo"
+    "texto texto"
+    "boton boton";
+}
+
+    .contacto_labels{
+        grid-area: labels;
+        margin-top: -24px;
+    }
+
+    .contacto_logo{
+        grid-area: logo;
+        width: 160px;
+        height: 160px;
+        border: none;
+        margin: 10px auto;
+        
+    }
+
+    .contacto_textarea{
+        grid-area: texto;
+    }
+
+    .contacto_boton{
+        grid-area: boton;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px -10px;
+        padding: 0px 10px;
+     
+    }

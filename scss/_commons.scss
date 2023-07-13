@@ -1,0 +1,42 @@
+h1{
+    font-family: $mainFont;
+    color: $mainColor;
+    font-size: $textXl;
+}
+
+h2{
+    font-family: $mainFont;
+    color: $mainColor;
+    font-size: $textLg;
+}
+
+body{
+    background-image: url("../img/background.jpg");
+}
+
+header img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.bg-opaco{
+    background-color: rgb(10, 10, 10);
+}
+.bigimg_size{
+    width: 250px;
+    height: auto;
+}
+
+.precios{
+    font-size: $textXs;
+    text-align: center;
+    margin-bottom: 8px;
+    color: $white;
+}
+
+.logo{      
+    width: 60px;
+    height: 60px;
+}

@@ -9,37 +9,37 @@
     list-style: none;
 }
 
-body{
+/* body{
     background-image: url("../img/background.jpg");
     
-}
-h1{
+} */
+/* h1{
     color: rgb(12, 12, 12);
     text-align: center;
     font-size: 3em;
-} /* titulo x pagina */
+} titulo x pagina */
 
-h2{
+/* h2{
     color: rgb(12, 12, 12);
     font-size: 1em;
     text-align: center;
-} /* productos destacados */
+} productos destacados */
 
-h3{
+/* h3{
     color: rgb(226, 226, 226);
     font-size: 2.5em;
     text-align: center;
     margin-top: 5px;
-}
+} */
 
-header img{
+/* header img{
     width: 100%;
     height: auto;
-} /* imagen hero */
+}  */
 
 
 /* Nav */
-nav{
+/* nav{
     background-color: rgb(12, 12, 12);
     padding: 0px 10px;
     top: 0;
@@ -65,33 +65,33 @@ nav ul li a{
 nav a:hover{
     cursor: crosshair;
     color: grey;
-}
+} */
 
 
-button svg{
+/* button svg{
     color: rgb(226, 226, 226);
     width: 25px;
     height: 25px;
     margin-bottom: 5px;
-}
+} */
 
 
 
 
 /* contactenos */
-main form{
-    background-color: rgb(49, 48, 48);
+/* main form{
+    background-color: rgb(49, 49, 49);
     width: 50%;
     height: auto;
     border: solid 3px rgb(77, 76, 76);
     padding: 25px;
     border-radius: 3px;
     margin-bottom: 30px;
-}
+} */
 
 
 /*footer*/
-footer{ 
+/* footer{ 
     width: 100%;
     height: auto;
     background-color: rgb(226, 226, 226);
@@ -121,99 +121,88 @@ footer svg{
 
 footer div a{
     text-decoration: none;
-}
+} */
 
 
 
 /* main */
-main article p{
+/* main article p{
     font-size: 1em;
     text-align: center;
     color: rgb(250, 67, 67);
-} /* precio sin descuento */
+} precio sin descuento */
 
-main section p{
+/* main section p{
     font-size: 2em;
     text-align: left;
     color: rgb(12, 12, 12);
-} /* texto index */
+} texto index */
 
-main p{
+/* main p{
     color: rgb(226, 226, 226);
     font-size: 2em;
     text-align: center;
-} /* texto nosotros */
+} texto nosotros */
 
 
-main section ul li a{
+/* main section ul li a{
     color: rgb(12, 12, 12);
     
-} /* lista catalogo */
+} lista catalogo */
 
-main section ul li a:hover{
+/* main section ul li a:hover{
     cursor: crosshair;
     color: grey;
-}
-main section img{
+} */
+/* main section img{
     border: solid 2px rgb(226, 226, 226);
     border-radius: 5px;
     width: 75%;
-}
+} */
 
-main section ul{
+/* main section ul{
     padding: 5px;
-}
+} */
 
 /* ------ clases ------ */
 
 /* otros */
-.bg-opaco{
+/* .bg-opaco{
     background-color: rgb(10, 10, 10);
-}
+} */
 .bigimg_size{
     width: 250px;
     height: auto;
 } /* img nosotros, index y contacto */
 
 
-.precios{
+/* .precios{
     font-size: 1em;
     text-align: center;
     margin-bottom: 8px;
     color: white;
-}
+} */
 
 /* nav */
 
-.navegador{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-    .navegador ul{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 10px;        
-    }
 
-    .logo{      
+    /* .logo{      
         width: 60px;
         height: 60px;
-    }
+    } */
 
-@media (width < 576px){
+/* @media (width < 576px){
 
     nav ul li a{
         font-size: 1em;
     }
-}
+} */
 
 
 /* footer */
 
-@media (width < 480px){
+/* @media (width < 480px){
 
     footer{
 
@@ -224,14 +213,14 @@ main section ul{
     footer p{
         text-align: center;
     }
-}
+} */
 
 
 
 
 /* catalogo */
 
-.catalogo{
+/* .catalogo{
    
    display: grid;
    grid-template-columns: 15% repeat(3,1fr);
@@ -329,13 +318,13 @@ main section ul{
         margin: 5px 5px;     
         padding-top: 10px;
     }
+ */
 
 
 
 
 
-
-@media (width < 768px){
+/* @media (width < 768px){
 
     .catalogo{
         
@@ -370,11 +359,11 @@ main section ul{
 
         font-size: 0.75em;
     }
-}
+} */
 
  /* ofertas */
 
- .ofertas{
+ /* .ofertas{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -389,16 +378,16 @@ main section ul{
 
     .ofertas img{
         margin: 10px 20px;
-    }
+    } */
 
 
 /* nosotros */
 
-.nosotros{
+/* .nosotros{
     display: flex;
     flex-direction: row;
     align-items: flex-start;  
-}
+} */
 
 /* contacto */
 

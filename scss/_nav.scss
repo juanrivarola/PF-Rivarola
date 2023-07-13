@@ -1,0 +1,30 @@
+.navbar{
+    background-color: $mainColor;
+    width: 100%;
+
+    ul{
+        display: flex;
+    }
+        li{
+            margin: 10px;
+        }
+            a{
+                color: $white;
+                text-decoration: none;
+                font-size: $textSm;
+
+                &:hover{
+                    cursor: crosshair;
+                    color: $secondaryColor;
+                }
+            }
+    button svg{
+        color: $white;
+        margin-bottom: 5px;
+        width: 30px;
+        height: 30px;
+
+    }
+}
+
+

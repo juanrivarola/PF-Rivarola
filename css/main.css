@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200&family=Roboto&display=swap");
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: rgb(12, 12, 12);
+  font-size: 3em;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: rgb(12, 12, 12);
+  font-size: 2.5em;
+}
+
+body {
+  background-image: url("../img/background.jpg");
+}
+
+header img {
+  width: 100%;
+  height: auto;
+}
+
+.bg-opaco {
+  background-color: rgb(10, 10, 10);
+}
+
+.bigimg_size {
+  width: 250px;
+  height: auto;
+}
+
+.precios {
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 8px;
+  color: rgb(226, 226, 226);
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.navbar {
+  background-color: rgb(12, 12, 12);
+  width: 100%;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar li {
+  margin: 10px;
+}
+.navbar a {
+  color: rgb(226, 226, 226);
+  text-decoration: none;
+  font-size: 1.5em;
+}
+.navbar a:hover {
+  cursor: crosshair;
+  color: rgb(128, 128, 128);
+}
+.navbar button svg {
+  color: rgb(226, 226, 226);
+  margin-bottom: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: rgb(226, 226, 226);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 15px;
+}
+footer p {
+  text-align: right;
+  color: rgb(128, 128, 128);
+  font-size: 0.75em;
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 25%;
+  height: 30%;
+}
+footer svg {
+  width: 30px;
+  height: 30px;
+  fill: rgb(12, 12, 12);
+  margin-left: 10px;
+}
+footer a {
+  text-decoration: none;
+}
+
+.index h1 {
+  text-align: center;
+  font-size: 3em;
+  color: rgb(226, 226, 226);
+}
+.index p {
+  font-size: 2em;
+  text-align: left;
+  color: rgb(226, 226, 226);
+}
+.index h2 {
+  text-align: center;
+  font-size: 2em;
+  color: rgb(226, 226, 226);
+}
+.index article {
+  border: solid 2px rgb(226, 226, 226);
+  border-radius: 5px;
+  background-color: rgb(128, 128, 128);
+}
+
+.catalogo {
+  display: grid;
+  grid-template-columns: 15% repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 5px;
+  margin-right: 5px;
+  grid-template-areas: "filtros prod1 prod2 prod3" ". prod4 prod5 prod6";
+}
+.catalogo .filtros {
+  margin: 5px;
+  grid-area: filtros;
+  padding-top: 10px;
+}
+.catalogo .filtros ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.catalogo .filtros a {
+  font-size: 1em;
+  text-decoration: none;
+}
+.catalogo .prod1 {
+  grid-area: prod1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  margin: 5px 5px;
+}
+.catalogo .prod2 {
+  grid-area: prod2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  margin: 5px 5px;
+}
+.catalogo .prod3 {
+  grid-area: prod3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  margin: 5px 5px;
+}
+.catalogo .prod4 {
+  grid-area: prod4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  margin: 5px 5px;
+}
+.catalogo .prod5 {
+  grid-area: prod5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 5px;
+  padding-top: 10px;
+}
+.catalogo .prod6 {
+  grid-area: prod6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 5px;
+  padding-top: 10px;
+}
+.catalogo section {
+  border: solid 3px rgb(226, 226, 226);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.catalogo h3 {
+  margin-top: 5px;
+}
+.catalogo ul {
+  padding: 15px;
+}
+.catalogo li {
+  list-style: none;
+  font-size: 1.5em;
+}
+.catalogo a {
+  color: rgb(12, 12, 12);
+}
+.catalogo a:hover {
+  cursor: crosshair;
+  color: rgb(128, 128, 128);
+}
+
+.contacto {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50px;
+}
+.contacto form {
+  background-color: rgb(49, 49, 49);
+  width: 50%;
+  height: auto;
+  border: solid 3px rgb(77, 76, 76);
+  padding: 25px;
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+
+.contacto_form {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: repeat(3, auto);
+  gap: 5px;
+  grid-template-areas: "labels logo" "labels logo" "labels logo" "texto texto" "boton boton";
+}
+
+.contacto_labels {
+  grid-area: labels;
+  margin-top: -24px;
+}
+
+.contacto_logo {
+  grid-area: logo;
+  width: 160px;
+  height: 160px;
+  border: none;
+  margin: 10px auto;
+}
+
+.contacto_textarea {
+  grid-area: texto;
+}
+
+.contacto_boton {
+  grid-area: boton;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px -10px;
+  padding: 0px 10px;
+}
+
+.nosotros {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.nosotros p {
+  color: rgb(226, 226, 226);
+  font-size: 2em;
+  text-align: center;
+}
+
+.ofertas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ofertas p {
+  font-size: 1em;
+  text-align: center;
+  color: rgb(250, 67, 67);
+}
+.ofertas img {
+  margin: 10px 20px;
+}
+.ofertas h2 {
+  margin-top: -20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+@media (width < 576px) {
+  nav ul li a {
+    font-size: 1em;
+  }
+}
+@media (width < 480px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer p {
+    text-align: center;
+  }
+}
+@media (width < 950px) {
+  .catalogo {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(7, auto);
+    grid-template-areas: "filtros filtros" "prod1 prod2" "prod3 prod4" "prod5 prod6";
+  }
+  .filtros ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+@media (width < 535px) {
+  .catalogo h2 {
+    font-size: 1.5em;
+  }
+  .catalogo p {
+    font-size: 0.75em;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

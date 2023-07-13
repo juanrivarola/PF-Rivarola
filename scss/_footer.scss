@@ -1,0 +1,32 @@
+footer{
+    width: 100%;
+    height: auto;
+    background-color: $white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 15px;
+
+    p{
+        text-align: right;
+        color: $secondaryColor;
+        font-size: 0.75em;   
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 25%;
+        height: 30%;
+    }
+
+    svg{
+        width: 30px;
+        height: 30px;
+        fill: $mainColor;
+        margin-left: 10px;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+}
+

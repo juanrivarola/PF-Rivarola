@@ -1,0 +1,116 @@
+.catalogo {
+    display: grid;
+    grid-template-columns: 15% repeat(3,1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 5px;
+    margin-right: 5px;
+    grid-template-areas: 
+    "filtros prod1 prod2 prod3"
+    ". prod4 prod5 prod6";
+
+    .filtros{
+        margin: 5px;
+        grid-area: filtros;
+        padding-top: 10px;
+
+       ul{
+           display: flex;
+           flex-direction: column;
+           align-items: flex-start;
+       }
+
+       a{
+           font-size: $textXs;
+           text-decoration: none;        
+       }
+    }   
+
+    .prod1{
+        grid-area: prod1;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        padding-top: 10px;
+        margin: 5px 5px;   
+    }
+
+    .prod2{
+        grid-area: prod2;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        padding-top: 10px;
+        margin: 5px 5px;   
+    }
+
+    .prod3{
+        grid-area: prod3;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        padding-top: 10px;
+        margin: 5px 5px;     
+    }
+
+    .prod4{
+        grid-area: prod4;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        padding-top: 10px;
+        margin: 5px 5px;      
+    }
+
+    .prod5{
+        grid-area: prod5;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        margin: 5px 5px;     
+        padding-top: 10px;
+    }
+
+    .prod6{
+        grid-area: prod6;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        margin: 5px 5px;     
+        padding-top: 10px;
+    }
+
+    section{
+        border: solid 3px $white;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    h3{
+       margin-top: 5px;
+    }
+
+    ul{
+        padding: 15px;
+    }
+    li{
+        list-style: none;
+        font-size: $textSm;
+    }
+
+    a{
+        color: $mainColor;
+        
+            &:hover{
+                cursor: crosshair;
+                color: $secondaryColor;
+            }
+    }
+ }
+    
+    

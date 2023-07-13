@@ -1,0 +1,12 @@
+.nosotros{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;  
+
+    p{
+        color: $white;
+        font-size: $textMd;
+        text-align: center;  
+    }
+}

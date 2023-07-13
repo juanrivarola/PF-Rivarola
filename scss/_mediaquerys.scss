@@ -1,0 +1,62 @@
+
+//nav
+
+@media (width < 576px){
+
+    nav ul li a{
+        font-size: $textXs;
+    }
+}
+
+//footer
+
+@media (width < 480px){
+
+    footer{
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer p{
+        text-align: center;
+    }
+}
+
+//catalogo
+@media (width < 950px){
+
+    .catalogo{
+        
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(7,auto);
+        grid-template-areas: 
+        "filtros filtros"
+        "prod1 prod2"
+        "prod3 prod4"
+        "prod5 prod6";
+    }
+
+    
+    .filtros ul{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    
+}
+
+@media (width < 535px){
+
+    .catalogo h2{
+
+        font-size: $textSm;
+    }
+
+    .catalogo p{
+
+        font-size: 0.75em;
+    }
+}
