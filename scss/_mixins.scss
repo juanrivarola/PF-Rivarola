@@ -1,4 +1,12 @@
-.logo-sizing{
-    width: ;
+@mixin logo-sizing($height,$width){
+    height: $height;
+    width: $width;
+}
 
+.logo-nav{
+    @include logo-sizing(80px,80px)
+}
+
+.logo-form{
+    @include logo-sizing(165px,165px)
 }

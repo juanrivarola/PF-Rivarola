@@ -1,6 +1,7 @@
 .navbar{
     background-color: $mainColor;
     width: 100%;
+    border: 0.5px solid $white;
 
     ul{
         display: flex;
@@ -26,5 +27,6 @@
 
     }
 }
+
 
 
