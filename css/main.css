@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200&family=Roboto&display=swap");
 .logo-nav {
   height: 80px;
@@ -7,6 +8,52 @@
 .logo-form {
   height: 165px;
   width: 165px;
+}
+
+.card-flip {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  transform-style: preserve-3d; /* Permite que los hijos se transformen en 3D */
+  transition: transform 0.5s ease; /* Transición al girar la card */
+}
+.card-flip .card-front, .card-flip .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Oculta el contenido de la cara trasera mientras se muestra la frontal */
+}
+.card-flip .card-front {
+  background-color: 255, 255, 255, 0;
+}
+.card-flip .card-back {
+  transform: rotateY(180deg); /* Gira la card 180 grados para ocultar la cara trasera */
+}
+.card-flip:hover {
+  transform: rotateY(180deg); /* Gira la card 180 grados al hacer hover */
+}
+
+@keyframes animateAlerta {
+  0% {
+    color: rgb(226, 226, 226);
+  }
+  25% {
+    color: red;
+  }
+  50% {
+    color: rgb(226, 226, 226);
+  }
+  75% {
+    color: red;
+  }
+  100% {
+    color: rgb(226, 226, 226);
+  }
+}
+.alerta {
+  animation-name: animateAlerta;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 h1 {
@@ -280,7 +327,10 @@ footer a {
 }
 .nosotros p {
   color: rgb(226, 226, 226);
-  font-size: 2em;
+  font-size: 1.5em;
+  text-align: center;
+}
+.nosotros h2 {
   text-align: center;
 }
 
@@ -323,6 +373,21 @@ h1 {
     text-align: center;
   }
 }
+@media (width < 768px) {
+  .ofertas {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .nosotros {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nosotros p {
+    font-size: 1em;
+    text-align: center;
+  }
+}
 @media (width < 950px) {
   .catalogo {
     grid-template-columns: 50% 50%;
@@ -341,6 +406,21 @@ h1 {
   }
   .catalogo p {
     font-size: 0.75em;
+  }
+}
+@media (width < 992px) {
+  .index h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .index p {
+    font-size: 1.5em;
+  }
+  .index h2 {
+    font-size: 1.5em;
+  }
+  .nosotros p {
+    font-size: 1.25em;
   }
 }
 

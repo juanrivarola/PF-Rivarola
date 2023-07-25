@@ -23,6 +23,28 @@
     }
 }
 
+//ofertas
+
+@media (width < 768px) {
+
+    .ofertas{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .nosotros{
+
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nosotros p{
+
+        font-size: $textXs;
+        text-align: center;
+    }
+}
+
 //catalogo
 @media (width < 950px){
 
@@ -60,3 +82,25 @@
         font-size: 0.75em;
     }
 }
+
+//index
+@media (width < 992px){
+    .index h1{
+        font-size: $textMd;
+        text-align: center;
+    }
+
+    .index p{
+        font-size: $textSm;
+    }
+    
+    .index h2{
+        font-size: $textSm;
+    }
+    
+    .nosotros p{
+        font-size: 1.25em;
+    }
+}
+
+//nosotros
