@@ -387,6 +387,14 @@ h1 {
     font-size: 1em;
     text-align: center;
   }
+  .contacto form {
+    margin: 10px;
+    width: 100%;
+  }
+  .contacto aside img {
+    width: 90%;
+    margin-left: 0px;
+  }
 }
 @media (width < 950px) {
   .catalogo {
@@ -398,6 +406,19 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+  }
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacto form {
+    margin-right: 50px;
+    width: 100%;
+  }
+  .contacto aside img {
+    width: 90%;
+    margin-left: 0px;
   }
 }
 @media (width < 535px) {
@@ -421,6 +442,19 @@ h1 {
   }
   .nosotros p {
     font-size: 1.25em;
+  }
+}
+@media (width < 1301px) {
+  .contacto {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contacto aside img {
+    width: 90%;
+    margin-left: 25px;
+  }
+  .contacto form img {
+    margin-left: 10px;
   }
 }
 
