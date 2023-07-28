@@ -1,13 +1,4 @@
 
-
-@media (width < 576px){
-
-    nav ul li a{
-        font-size: $textXs;
-    }
-}
-
-
 @media (width < 480px){
 
     footer{
@@ -18,6 +9,26 @@
 
     footer p{
         text-align: center;
+    }
+}
+
+@media (width < 535px){
+
+    .catalogo h2{
+
+        font-size: $textSm;
+    }
+
+    .catalogo p{
+
+        font-size: 0.75em;
+    }
+}
+
+@media (width < 576px){
+
+    nav ul li a{
+        font-size: $textXs;
     }
 }
 
@@ -54,7 +65,6 @@
     }
 
 }
-
 
 @media (width < 950px){
 
@@ -97,19 +107,6 @@
     }
     
     
-}
-
-@media (width < 535px){
-
-    .catalogo h2{
-
-        font-size: $textSm;
-    }
-
-    .catalogo p{
-
-        font-size: 0.75em;
-    }
 }
 
 
