@@ -125,6 +125,20 @@ header img {
   height: 30px;
 }
 
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error a {
+  color: rgb(12, 12, 12);
+  text-decoration: none;
+}
+.error a:hover {
+  cursor: crosshair;
+  color: rgb(128, 128, 128);
+}
+
 footer {
   width: 100%;
   height: auto;
@@ -411,21 +425,6 @@ footer a {
 
 h1 {
   text-align: center;
-}
-
-.error {
-  display: flex;
-}
-.error body {
-  background-image: url("../img/error404.jpg");
-}
-.error a {
-  color: rgb(12, 12, 12);
-  text-decoration: none;
-}
-.error a:hover {
-  cursor: crosshair;
-  color: rgb(128, 128, 128);
 }
 
 @media (width < 480px) {
