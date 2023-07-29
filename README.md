@@ -17,7 +17,7 @@
 </p>
 
 <h3 align="left">Mi aprendizaje:</h3>
-<p align="center" style="display: flex; align-items:center; flex-wrap: wrap;">  
+<p align="center">  
    El proyecto no es lo que esperaba pero de todas maneras estoy conforme con el resultado, tambien estoy tranquilo porque con lo que aprendi estoy seguro que tengo la capacidad de cambiar lo que necesite y/o mejorar el sitio.</p> <br>
 <div align="left" style="display: flex; align-items:center;">
    <img src="https://i.postimg.cc/qvWnX2G5/wireframe-index.jpg" width="70%"><br>
