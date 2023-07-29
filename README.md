@@ -2,7 +2,7 @@
 <h1 align="center">Hola!👋, soy Juan Rivarola</h1>
 <h3 align="center">Aprendiendo programación y diseño😊</h3>
 
-- 🔭 Mi Meta para este 2023 **es completar mi carrera de Desarrollador Fullstack en Coderhouse.**
+- 🔭 Mi meta para este 2023 **es completar mi carrera de Desarrollador Fullstack en Coderhouse.**
 
 - 🌱 Actualmente estoy **aprendiendo Javascript y practicando el uso de html con css**
 
@@ -12,8 +12,7 @@
 
 <h3 align="left">Redes sociales</h3>
 <p align="left" style="display: flex; align-items:center">
-<a href="(https://www.linkedin.com/in/juan-rivarola-679b16150/)" target="blank" style="margin-left:15px"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="starc007" height="30" width="30" /></a> <br> 
-<a href="(https://www.instagram.com/juanrivarola11/)" target="blank" style="margin-left:15px"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="saurra3h" height="30" width="30" /></a>
+<a href="(https://www.linkedin.com/in/juan-rivarola-679b16150/)" target="blank" style="margin-left:15px"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="starc007" height="30" width="30" /></a>    <a href="(https://www.instagram.com/juanrivarola11/)" target="blank" style="margin-left:15px"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="saurra3h" height="30" width="30" /></a>
 </p>
 <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> //bootstrap 
 
