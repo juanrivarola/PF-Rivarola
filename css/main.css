@@ -178,6 +178,7 @@ footer a {
 .overflow {
   width: auto;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .catalogo {
@@ -377,6 +378,16 @@ footer a {
   justify-content: space-between;
   margin: 10px -10px;
   padding: 0px 10px;
+}
+
+.btn-gral {
+  background-color: rgb(12, 12, 12);
+  color: rgb(128, 128, 128);
+}
+.btn-gral:hover {
+  cursor: crosshair;
+  background-color: rgb(128, 128, 128);
+  color: rgb(12, 12, 12);
 }
 
 .nosotros {

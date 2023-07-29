@@ -55,3 +55,13 @@
         padding: 0px 10px;
      
     }
+
+    .btn-gral{
+        background-color: $mainColor;
+        color: $secondaryColor;
+         &:hover{
+            cursor: crosshair;
+            background-color: $secondaryColor;
+            color: $mainColor;
+         }
+    }
