@@ -325,6 +325,13 @@ footer a {
   list-style: none;
   font-size: 1.5em;
 }
+.catalogo a {
+  color: rgb(12, 12, 12);
+}
+.catalogo a:hover {
+  cursor: crosshair;
+  color: rgb(128, 128, 128);
+}
 
 .contacto {
   display: flex;
