@@ -165,14 +165,7 @@
         font-size: $textSm;
     }
 
-    a{
-        color: $mainColor;
-        
-            &:hover{
-                cursor: crosshair;
-                color: $secondaryColor;
-            }
-    }
+
  }
     
     

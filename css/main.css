@@ -125,20 +125,6 @@ header img {
   height: 30px;
 }
 
-.error {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.error a {
-  color: rgb(12, 12, 12);
-  text-decoration: none;
-}
-.error a:hover {
-  cursor: crosshair;
-  color: rgb(128, 128, 128);
-}
-
 footer {
   width: 100%;
   height: auto;
@@ -187,6 +173,11 @@ footer a {
   border: solid 2px rgb(226, 226, 226);
   border-radius: 5px;
   background-color: rgb(128, 128, 128);
+}
+
+.overflow {
+  width: auto;
+  box-sizing: border-box;
 }
 
 .catalogo {
@@ -333,13 +324,6 @@ footer a {
 .catalogo li {
   list-style: none;
   font-size: 1.5em;
-}
-.catalogo a {
-  color: rgb(12, 12, 12);
-}
-.catalogo a:hover {
-  cursor: crosshair;
-  color: rgb(128, 128, 128);
 }
 
 .contacto {
