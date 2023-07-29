@@ -181,7 +181,7 @@ footer a {
   grid-template-rows: repeat(2, auto);
   gap: 5px;
   margin-right: 5px;
-  grid-template-areas: "filtros prod1 prod2 prod3" ". prod4 prod5 prod6";
+  grid-template-areas: "filtros prod1 prod2 prod3" ". prod4 prod5 prod6" ". prod7 prod8 prod9" ". prod10 prod11 prod12";
 }
 .catalogo .filtros {
   margin: 5px;
@@ -244,6 +244,60 @@ footer a {
 }
 .catalogo .prod6 {
   grid-area: prod6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 5px;
+  padding-top: 10px;
+}
+.catalogo .prod7 {
+  grid-area: prod7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 5px;
+  padding-top: 10px;
+}
+.catalogo .prod8 {
+  grid-area: prod8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 5px;
+  padding-top: 10px;
+}
+.catalogo .prod9 {
+  grid-area: prod9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 5px;
+  padding-top: 10px;
+}
+.catalogo .prod10 {
+  grid-area: prod10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 5px;
+  padding-top: 10px;
+}
+.catalogo .prod11 {
+  grid-area: prod11;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 5px;
+  padding-top: 10px;
+}
+.catalogo .prod12 {
+  grid-area: prod12;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -359,11 +413,21 @@ h1 {
   text-align: center;
 }
 
-@media (width < 576px) {
-  nav ul li a {
-    font-size: 1em;
-  }
+.error {
+  display: flex;
 }
+.error body {
+  background-image: url("../img/error404.jpg");
+}
+.error a {
+  color: rgb(12, 12, 12);
+  text-decoration: none;
+}
+.error a:hover {
+  cursor: crosshair;
+  color: rgb(128, 128, 128);
+}
+
 @media (width < 480px) {
   footer {
     flex-direction: column;
@@ -371,6 +435,19 @@ h1 {
   }
   footer p {
     text-align: center;
+  }
+}
+@media (width < 535px) {
+  .catalogo h2 {
+    font-size: 1.5em;
+  }
+  .catalogo p {
+    font-size: 0.75em;
+  }
+}
+@media (width < 576px) {
+  nav ul li a {
+    font-size: 1em;
   }
 }
 @media (width < 768px) {
@@ -400,7 +477,7 @@ h1 {
   .catalogo {
     grid-template-columns: 50% 50%;
     grid-template-rows: repeat(7, auto);
-    grid-template-areas: "filtros filtros" "prod1 prod2" "prod3 prod4" "prod5 prod6";
+    grid-template-areas: "filtros filtros" "prod1 prod2" "prod3 prod4" "prod5 prod6" "prod7 prod8" "prod9 prod10" "prod11 prod12";
   }
   .filtros ul {
     display: flex;
@@ -419,14 +496,6 @@ h1 {
   .contacto aside img {
     width: 90%;
     margin-left: 0px;
-  }
-}
-@media (width < 535px) {
-  .catalogo h2 {
-    font-size: 1.5em;
-  }
-  .catalogo p {
-    font-size: 0.75em;
   }
 }
 @media (width < 992px) {

@@ -6,7 +6,9 @@
     margin-right: 5px;
     grid-template-areas: 
     "filtros prod1 prod2 prod3"
-    ". prod4 prod5 prod6";
+    ". prod4 prod5 prod6"
+    ". prod7 prod8 prod9"
+    ". prod10 prod11 prod12";
 
     .filtros{
         margin: 5px;
@@ -77,6 +79,66 @@
 
     .prod6{
         grid-area: prod6;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        margin: 5px 5px;     
+        padding-top: 10px;
+    }
+
+    .prod7{
+        grid-area: prod7;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        margin: 5px 5px;     
+        padding-top: 10px;
+    }
+
+    .prod8{
+        grid-area: prod8;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        margin: 5px 5px;     
+        padding-top: 10px;
+    }
+
+    .prod9{
+        grid-area: prod9;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        margin: 5px 5px;     
+        padding-top: 10px;
+    }
+
+    .prod10{
+        grid-area: prod10;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        margin: 5px 5px;     
+        padding-top: 10px;
+    }
+
+    .prod11{
+        grid-area: prod11;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        margin: 5px 5px;     
+        padding-top: 10px;
+    }
+
+    .prod12{
+        grid-area: prod12;
         display: flex;
         flex-direction: column;
         align-items:center;

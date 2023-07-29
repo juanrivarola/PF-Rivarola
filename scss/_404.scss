@@ -1,0 +1,17 @@
+.error{
+
+    display: flex;
+
+    body{
+        background-image: url("../img/error404.jpg");
+    }
+
+    a{
+        color: $mainColor;
+        text-decoration: none;
+            &:hover{
+                cursor: crosshair;
+                color: $secondaryColor;
+            }
+    }
+}
