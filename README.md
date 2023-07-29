@@ -17,10 +17,10 @@
 </p>
 
 <h3 align="left">Mi aprendizaje:</h3>
-<p align="left" style="display: flex; align-items:center; flex-wrap: wrap;">  
+<p align="center" style="display: flex; align-items:center; flex-wrap: wrap;">  
    El proyecto no es lo que esperaba pero de todas maneras estoy conforme con el resultado, tambien estoy tranquilo porque con lo que aprendi estoy seguro que tengo la capacidad de cambiar lo que necesite y/o mejorar el sitio.</p> <br>
 <div align="left" style="display: flex; align-items:center;">
-   <img src="https://i.postimg.cc/qvWnX2G5/wireframe-index.jpg" width="70%">
+   <img src="https://i.postimg.cc/qvWnX2G5/wireframe-index.jpg" width="70%"><br>
    <img src="https://i.postimg.cc/QM576V4x/index-final.jpg" width="70%">
 </div>
   Al inicio estuve muy conforme a la hora de hacer wireframes y el maquetado de la web, aunque el proyecto final no termino del todo como lo habia pensado originalmente, fueron de mucha ayuda para orientarme en que dirección llevar el diseño de cada página. <br>
