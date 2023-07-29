@@ -14,7 +14,7 @@
 
 <h3 align="left">Otras redes sociales</h3>
 <p align="left" style="display: flex; align-items:center">
-<a href="(https://www.linkedin.com/in/juan-rivarola-679b16150/)" target="blank" style="margin-left:15px"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="starc007" height="30" width="30" /></a>
+<a href="(https://www.linkedin.com/in/juan-rivarola-679b16150/)" target="blank" style="margin-left:15px"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="starc007" height="30" width="30" /></a> <br> 
 <a href="(https://www.instagram.com/juanrivarola11/)" target="blank" style="margin-left:15px"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="saurra3h" height="30" width="30" /></a>
 </p>
 <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> //bootstrap 
@@ -24,7 +24,8 @@
  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> //mozzila
 <h3 align="left">Mi aprendizaje:</h3>
 <p align="left" style="display: flex; align-items:center; flex-wrap: wrap;">  
-   dasdasdasdasd
+   El proyecto no es lo que esperaba pero de todas maneras estoy conforme con el resultado, tambien estoy tranquilo porque con lo que aprendi estoy seguro que tengo la capacidad de cambiar lo que necesite y/o mejorar el sitio.
+  Al inicio estuve muy conforme a la hora de hacer wireframes y el maquetado de la web, aunque el proyecto final no termino del todo como lo habia pensado originalmente, fueron de mucha ayuda para orientarme en que dirección llevar el diseño de cada página. Soprendentemente me hice mas amigo de grid que de flex, todavia estoy tratando de entender completamente su uso, gracias a las classes de <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a>
 </p>
 
 <h3 align="left">Support:</h3>
