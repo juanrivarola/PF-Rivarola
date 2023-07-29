@@ -21,7 +21,7 @@
 <br>
 <p>Al inicio estuve muy conforme a la hora de hacer wireframes y el maquetado de la web, aunque el proyecto final no termino del todo como lo habia pensado originalmente, fueron de mucha ayuda para orientarme en que dirección llevar el diseño de cada página.</p>
 <br>
-<p align="left" style="display: flex; align-items:center"> Un pequeño ejemplo del wireframe y el resultado final.</p> 
+<p align="left" style="display: flex; align-items:center">**Un pequeño ejemplo del wireframe y el resultado final**</p> 
 <img src="https://i.postimg.cc/qvWnX2G5/wireframe-index.jpg" width="70%">   
 <br>
 <img src="https://i.postimg.cc/QM576V4x/index-final.jpg" width="70%"></p>   
